@@ -5,6 +5,13 @@ public enum Health {
 
     private String title;
 
+    @Override
+    public String toString() {
+        return "Health{" +
+                "title='" + title + '\'' +
+                '}';
+    }
+
     Health(String title) {
         this.title = title;
     }
